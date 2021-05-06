@@ -1,0 +1,49 @@
+Week 1 Day 2
+
+List + Dictionary Navigation
+
+1) Housekeeping
+    -Write Down Exam Dates -- Maybe Take Time off on whatever day they want to take the Exam
+2) Data Types
+    -What are some Data Types
+    -Reminder: Strings and ints cannot concatenate
+        -Concatenation == adding Strings together
+    -Type Casting: How to?
+3) Accessing Info Inside Dictionaries & Lists
+    -Index Notation (Lists)
+    -Key Notation (Dictionaries)
+    -Accessing different values in Dicts and LIsts
+4) Overview of Dictionaries & Lists
+    -Why would I use one over the other?
+    -Lists hold ordered data, must be iterated through
+    -Dictionaries hold unordered data, can be immediately accessed with key
+5) Going Multi-Level
+    -Lists inside of Lists, etc
+    -Using For Loops with Lists that contain Dictionaries
+
+---Exam can be taken End of Week 6 [6/18-6/30] ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(If Extra Time) Functions --- Javascript VS Python
+Review on parts of a function
+Simple Algo with Function
+Breaking Problems Down
+
+(If Extra Time) *Brief* OOP Intro
+Talking about Pencils
+(Post-Lecture) Group Activity
+For Loop Basic I OR Functions Basic I
+
