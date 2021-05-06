@@ -1,0 +1,63 @@
+Overview of Lecture
+
+1) Expectations for the Python Stack vvv
+    -Retaking a Stack --- PLEASE RESUBMIT ALL ASSIGNMENTS, even if it says it's 'completed'
+2) Two Lecture Changes
+    -1 Week off (End of May)
+    -(Optional) Extra Lectures Week 6
+3) JS vs Python Game
+    -Learn Python Syntax through what you've done in JS
+
+EOW HW: Watch Introduction/Mini-Lecture Video,
+        Get comfy with your Terminal/CMD ASAP,
+        make a venv in the appropriate folder,
+        get comfy running python files with Terminal/CMD and activating, deactivating venv.
+
+Reading: Up until Functions Basic Introduction
+
+Python Exams can be taken between 6/18 and 6/30 (Mark your Calendars)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Edgar's Python Expectations
+
+1) 20 minute rule - continue to use it! (recreating work environment)
+    -Use the platform and other resources for 20 minutes
+    -Then, ask a classmate (you're all a dev team!)
+    -Then, ask publicly in [ONL] Python (you wouldn't get to bug your Senior Dev all the time)
+2) Know your resources and how to ask a question
+    -Platform, Google, Cohort-mates (ask someone directly)
+    -Use [ONL] Python (Everyone is here :])
+    -Ask quesiton publicly (so anyone can help!)
+    -Screenshots are helpful
+    -Pay it forward (Answer as many questions as you can)
+3) Continue to be inquisitive - I want you to teach me something
+4) This is harder material - have pride, not fear
+5) Addressing issues in a timely manner (Falling Behind, personal issues, etc)
+
+6) Understanding where we're headed (Platform -- full-stack example)
+    -Like Web Fundamentals -- Last 2 Weeks are Extra Material. 
+    -Unlike Web Fundamentals -- Required assignments will be completed by Week 6 (plan accordingly :])
+7) Week 1 Goals VS ALL other weeks
+    -Learn Python Syntax (how to write an if statement, how to write a for loop, etc)
+    -Becoming comfy with your Terminal
+    -We don't need venv to run python files. If we get used to activating it, it'll be second nature when we get to Django.
