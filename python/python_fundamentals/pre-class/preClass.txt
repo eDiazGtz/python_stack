@@ -1,0 +1,23 @@
+Overview of Mini-Lecture
+
+1) Introduction
+2) Installation of Python (Mac vs PC)
+    -Special note for PC users
+3) Importance of Using Your Terminal/Command Prompt
+    -VS Code Terminal
+    -ls/dir (where can I go?)
+    -cd (Change Directory)
+    -Running Python Files (Mac vs PC, again)
+4) Making a Virtual ENVironment (venv)
+    -Why is this needed?
+    -Activating your venv
+
+HW! (for Thu 5/21): Get comfy with your terminal/command prompt ASAP, 
+make a venv in the appropriate folder, 
+get comfy running your python files in the Terminal.
+
+Questions? Ask! :)
+
+Email: ediazgutierrez@codingdojo.com
+Mattermost (preferred for coding questions): instructor_edgar 
+[ONL]Python 
