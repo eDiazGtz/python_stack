@@ -1,0 +1,32 @@
+ Welcome to Week 3 Day 2!
+
+HW: Complete as much of Django Intro as you can
+Reading: Up to "Users (Shell)"
+
+You can take Python Belt Exam any day from 6/18 - 6/30 -- No Exams can be taken after 6/30
+
+1) Extras from last lecture
+    - context revisited "dragon_colors" : ['black', 'red', 'blue', 'green', 'white']
+    - Django Templating Engine {% %}
+    - {% for ... %} //show all colors {% endfor %}
+    - {% if ... %} //omit green color {% endif %}
+2) HTML Forms
+    - GET vs POST requests
+        -GET: Show me the Data! (render())
+        -POST: Take my Data! (forms)
+    - Creating an HTML form (Action, method, name)
+    - {csrf_token} --- let's look at Error Page 
+        - You need to be on this page to use form
+        - Bots can try and send form requests from other locations to your site, csrm protecc
+    - Showing form data on a template #print(request.POST)
+    -Let's render in our POST method and show new Dragon Data
+3) Redirecting (again)
+    - Why is it bad to render on a POST method?
+    - Adding in redirect
+    -Where is my POST data?
+        -MultiValueDictError (Let's talk about this one)
+4) Session
+    - What is "stateless" about our app?
+    - Migrating to bring in session
+    - Making our form data persist in our app
+    - Dot notation ONLY in Django Templating Engine??!

@@ -12,7 +12,7 @@ List + Dictionary Navigation
 3) Accessing Info Inside Dictionaries & Lists
     -Index Notation (Lists)
     -Key Notation (Dictionaries)
-    -Accessing different values in Dicts and LIsts
+    -Accessing different values in Dicts and Lists
 4) Overview of Dictionaries & Lists
     -Why would I use one over the other?
     -Lists hold ordered data, must be iterated through

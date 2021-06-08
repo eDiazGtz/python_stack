@@ -1,0 +1,59 @@
+Week 3 Day 1
+
+1) Welcome to the Request/Response Cycle!
+    -Brief Overview of Django Req/Res
+2) Adding more routes
+    -RESTful routing ----
+        * What is REST?
+            ~ REST (i.e. Representation State Transfer) is an architectural style for defining our routes. 
+            ~ It is a way of mapping HTTP routes and the CRUD functionalities(Django ORM).
+    -Dashboard (Show all dragons)
+    -User info (new route)
+    -Edit User dragon (Routes with Parameters)
+3) Bringing in HTML Templates
+    -Adding in the templates folder
+    -Adding <a> tags (Multiple html Pages)
+4) Redirecting
+    -Using print statements
+5) Context
+    -Creating the dictionary
+    -Using Context in html Templates
+6) Talking briefly about adding CSS
+    -Hard refresh (Command/CTRL + SHIFT + R)
+    -Static
+    -Static Paths
+    -IMG Folder
+    -Bootstrap (Touch)
+
+REMINDER: Exam Dates 6/18 - 6/30 -- No Exams can be taken after 6/30. 
+    -Take a day off to take the exam, do whatever prep you need to have a whole day for exam.
+
+HW: Complete first TWO Django Assignments
+Reading: Up to "Dojo Survey Revisited"
+
+EXTRA: If you are ahead and you want some help/consultation -- feel free to schedule Code Reviews. If you want a plan
+for what to do while ahead, or things to focus on (reach out to me, we can talk about plans or projects to think about)
+
+
+
+missed opp --- image from Web Fundamental, to validate knowledge students could resonate with
+
+go into request/res from django --- then, do it in Django
+
+then compare to Django Req/Res image
+--
+
+HTTP Response is always returned from the server
+    Lots of tangential deep-dives during req/res overview
+    Keep this conceptual setup tight
+
+RESTful API design is a bit much for day one of Django --- a bit much.
+    Just keep going.
+
+It is essential to walk through the full setup of a Django app 
+from scratch when they are seeing Django for the first time. 
+
+Good handling of bug --- gonna happen to everyone.
+Watch comments on URLs
+
+What is REQUEST mean in the function --- if I don't know the answer, say so.

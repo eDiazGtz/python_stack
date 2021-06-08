@@ -1,0 +1,48 @@
+Week 2 Day 2 OOP!!
+
+Business --- Welcome to Week 2! 
+    
+1) How to make a Pencil
+    -Classes
+    -Breakdown of a Class
+2) Methods and __init__
+    -Attributes
+    -Instance of Dragon
+    -Dot Notation
+3) Constructor
+    -What problems does the Constructor solve (hard-coding)
+    -Constructor Params
+    -Self.attribute
+    -Default Attributes--- totally not Hard-Coding
+4) Methods in Classes
+    -Accessing Methods (Dot Notation again)
+    -Let’s write some methods
+    -Accessing Attributes
+5) (If there is time) Chaining Methods
+    -return self
+    -Exam can be taken End of Week 6 Give Dates  6/18 - 6/30 -- No Exams can be taken after 6/30.
+
+
+
+
+
+
+
+
+1) Business
+-Things are starting to get a little challenging, but light on HW this week. 
+    -Recommend finding one or two people to do the OOP assignments with to really hammer out the details. Remind Students to Write Down Exam Dates 6/12 - 6/24 -- No Exams can be taken after 6/24.
+    -Note on MySQL Chapter -- Drawings will be accepted for these assignments.
+        -You do not need to Install MySQL for the ERDs. 
+        -SQL is giving a lot of issues to MAC users and it is very tedious, instead draw using Google Drive, or Pen and Paper those assignments. 
+        -Take a picture, upload it, submit it.
+    -This is a light week with HW and Week 3 ramps up. 
+    -Create Your First Django Project before coming to Class on Week 3. 
+        -I will remind you again next class, but make a note now to Put First Django Project on THIS week’s HW assignment.
+
+
+
+
+
+
+
