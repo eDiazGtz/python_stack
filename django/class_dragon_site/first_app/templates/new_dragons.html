@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=4, initial-scale=1.0">
+    <title>New Dragon</title>
+</head>
+<body>
+    <h1>Make a New Dragon</h1>
+    <form action="/dragons/create" method="POST">
+        {% csrf_token %}
+        <label for="name">Name</label>
+        <input type="text" name="name">
+
+        <label for="num_of_wings">Number of Wings</label>
+        <input type="text" name="num_of_wings">
+
+        <label for="has_magic">Has Magic?</label>
+        <input type="text" name="has_magic">
+
+        <label for="rider">Choose a Rider</label>            
+        <select name="rider_id">
+            {% for rider in all_riders %}
+            <option value="{{rider.id}}">{{rider.name}}</option>
+            {% endfor %}
+        </select>
+
+        <input type="submit" value="Create Dragon">
+    </form>
+
+</body>
+</html>
