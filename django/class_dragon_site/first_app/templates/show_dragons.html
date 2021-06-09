@@ -28,7 +28,8 @@
                 <td>{{dragon.num_of_wings}}</td>
                 <td>{{dragon.has_magic}}</td>
                 <td>{{dragon.my_rider.name}}</td>
-                <td><a href="/dragons/{{dragon.id}}/like">Like</a> {{dragon.riders_that_like_me.count}}</td>
+                <td><a href="/dragons/{{dragon.id}}/like">Like</a> {{dragon.riders_that_like_me.count}} | <a href="dragons/{{dragon.id}}/destroy">Delete</a></td>
+                
             </tr>
             {% endfor %}
         </tbody>

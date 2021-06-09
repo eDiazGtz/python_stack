@@ -1,5 +1,7 @@
+
 from django.shortcuts import redirect, render
 from .models import Dragon, Rider
+from django.contrib import messages
 
 # Create your views here.
 #localhost:8000
@@ -22,11 +24,25 @@ def new_dragons(request):
 
 #localhost:8000/dragons/create
 def create_dragons(request):
-    if request.method == 'POST':
-        #create dragon
-        Dragon.objects.create(name=request.POST['name'] , num_of_wings=request.POST['num_of_wings'] , has_magic=request.POST['has_magic'], my_rider = Rider.objects.get(id=request.POST['rider_id']))
-        print("I am creating a Dragon!")
-        return redirect("/dragons")
+    if request.method == 'POST': 
+        
+
+        errors = Dragon.objects.dragon_creator_validator(request.POST)
+        # check if the errors dictionary has anything in it
+        if len(errors) > 0:
+            # if the errors dictionary contains anything, loop through each key-value pair and make a flash message
+            for value in errors.values():
+                messages.error(request, value)
+            # redirect the user back to the form to fix the errors
+            return redirect('/dragons/new')
+
+        else:
+            # if the errors object is empty, that means there were no errors!
+            # retrieve the blog to be updated, make the changes, and save
+            #create dragon
+            Dragon.objects.create(name=request.POST['name'] , num_of_wings=request.POST['num_of_wings'] , has_magic=request.POST['has_magic'], my_rider = Rider.objects.get(id=request.POST['rider_id']))
+            print("I am creating a Dragon!")
+            return redirect("/dragons")
     return redirect('/dragons/new')
 
 #lovalhost:8000/dragons/like
@@ -58,3 +74,33 @@ def edit_dragons(request, dragon_id):
         "dragon_id":dragon_id,
     }
     return render(request,"edit_dragons.html", context)
+
+#localhost:8000/dragons/{id}/update
+def update_dragons(request, dragon_id):
+    if request.method == 'POST': 
+        
+        errors = Dragon.objects.dragon_creator_validator(request.POST)
+        # check if the errors dictionary has anything in it
+        if len(errors) > 0:
+            # if the errors dictionary contains anything, loop through each key-value pair and make a flash message
+            for value in errors.values():
+                messages.error(request, value)
+            # redirect the user back to the form to fix the errors
+            return redirect('/dragons/new')
+
+        else:
+            # if the errors object is empty, that means there were no errors!
+            # retrieve the blog to be updated, make the changes, and save
+            #create dragon
+            thisDragon = Dragon.objects.get(id=dragon_id)
+            thisDragon.name=request.POST['name']
+            thisDragon.num_of_wings=request.POST['num_of_wings']
+            thisDragon.has_magic=request.POST['has_magic']
+            thisDragon.save()
+            return redirect(f"/dragons/{dragon_id}")
+    return redirect(f'/dragons/{dragon_id}/edit')
+
+def destroy(request, dragon_id):
+    dragon_to_delete = Dragon.objects.get(id=dragon_id)
+    dragon_to_delete.delete()
+    return redirect("/dragons")

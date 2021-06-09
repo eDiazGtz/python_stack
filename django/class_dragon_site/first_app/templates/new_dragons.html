@@ -8,6 +8,13 @@
 </head>
 <body>
     <h1>Make a New Dragon</h1>
+    {% if messages %}
+    <ul>    
+        {% for message in messages %}    
+            <li>{{ message }}</li>    
+        {% endfor %}
+    </ul>
+{% endif %}
     <form action="/dragons/create" method="POST">
         {% csrf_token %}
         <label for="name">Name</label>
